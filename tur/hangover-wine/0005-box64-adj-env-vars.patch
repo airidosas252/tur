@@ -1,8 +1,16 @@
 diff --git a/dlls/box64cpu/cpu.c b/dlls/box64cpu/cpu.c
-index 3452b09..8568294 100644
+index 3452b09..84106d2 100644
 --- a/dlls/box64cpu/cpu.c
 +++ b/dlls/box64cpu/cpu.c
-@@ -57,28 +57,28 @@ WINE_DECLARE_DEBUG_CHANNEL(box64dump);
+@@ -29,6 +29,7 @@
+ #include <stdarg.h>
+ #include <stdint.h>
+ #include <signal.h>
++#include <stdlib.h>
+ 
+ #include "ntstatus.h"
+ #define WIN32_NO_STATUS
+@@ -57,28 +58,28 @@ WINE_DECLARE_DEBUG_CHANNEL(box64dump);
  
  NTSTATUS WINAPI Wow64SystemServiceEx( UINT num, UINT *args );
  
