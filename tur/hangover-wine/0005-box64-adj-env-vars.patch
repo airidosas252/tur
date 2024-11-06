@@ -1,5 +1,5 @@
 diff --git a/dlls/box64cpu/cpu.c b/dlls/box64cpu/cpu.c
-index 3452b09..7ae4ef5 100644
+index 3452b09..cfbce50 100644
 --- a/dlls/box64cpu/cpu.c
 +++ b/dlls/box64cpu/cpu.c
 @@ -61,14 +61,14 @@ int box64_dynarec_log = 0;
@@ -9,9 +9,8 @@ index 3452b09..7ae4ef5 100644
 -int box64_dynarec_bigblock = 1;
 +int box64_dynarec_bigblock = 3;
  int box64_dynarec_forward = 128;
--int box64_dynarec_strongmem = 0;
+ int box64_dynarec_strongmem = 0;
 -int box64_dynarec_x87double = 0;
-+int box64_dynarec_strongmem = 1;
 +int box64_dynarec_x87double = 1;
  int box64_dynarec_fastnan = 1;
 -int box64_dynarec_fastround = 1;
