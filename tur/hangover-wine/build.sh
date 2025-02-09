@@ -22,6 +22,8 @@ TERMUX_PKG_HOSTBUILD=true
 TERMUX_PKG_EXTRA_HOSTBUILD_CONFIGURE_ARGS="
 --without-x
 --disable-tests
+--disable-amd_ags_x64
+--disable-atiadlxx
 "
 
 TERMUX_PKG_BLACKLISTED_ARCHES="arm, i686, x86_64"
